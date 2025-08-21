@@ -1,0 +1,20 @@
+figure;
+hold on;
+load('Fig1f_data_Multitrial_bias_norm_10s.mat');
+last1_bias_3s = data(:,2);
+load('Fig1f_data_Multitrial_bias_norm_20s.mat');
+last1_bias_12s = data(:,2);
+load('Fig1f_data_Multitrial_bias_norm_40s.mat');
+last1_bias_30s = data(:,2);
+mean_value = [mean(last1_bias_3s) mean(last1_bias_12s) mean(last1_bias_30s)];
+sem_value = [sem(last1_bias_3s) sem(last1_bias_12s) sem(last1_bias_30s)];
+errorbar(mean_value,sem_value,'o--','MarkerSize',10,'LineWidth',1.5,'Color',[0.5 0.5 0.5],'MarkerFaceColor',[0.5 0.5 0.5],'CapSize',10);
+set(gca,'Fontsize',16,'LineWidth',0.5);
+set(gcf,'Position',[100 100 400 300]);
+xticks([1 2 3]);
+ylabel('-1 History bias (a.u.)');
+xticklabels({'10s','20s','40s'});
+xlabel('Interval length (s)');
+yline(0,'LineStyle','--','LineWidth',1.2);
+ylim([-0.1 0.8]);
+xlim([0.75 3.25])
