@@ -4,8 +4,8 @@ This repository contains code related to the paper:
 
 > **A Thalamus–Brainstem Attractor Network Drives History-Biased Decisions**
 
-The code provided here focuses on the **model simulation part** of the study.  
-All scripts are implemented in Python (Jupyter notebooks) and are organized for reproducing specific analyses and visualizations of neural activity trajectories.
+The code provided here focuses on the **data preprocess, figure plotting, and model simulation part** of the study.
+The scripts for model simulation of the hierarchical attractor network are implemented in Python (Jupyter notebooks) and are organized for reproducing specific analyses and visualizations of neural activity trajectories. All other scripts are in MATLAB.
 
 ## Contents
 
