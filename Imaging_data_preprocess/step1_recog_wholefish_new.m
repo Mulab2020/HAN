@@ -1,6 +1,6 @@
 clear all;close all;
 tic
-img_dir='E:\shy\20250507_3_1_6dpf_VODL2_20250507_133458\registered';
+img_dir='';
 
 dim=read_LSstack_size(fullfile(img_dir,'\Stack dimensions.log'));
     
