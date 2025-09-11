@@ -32,5 +32,5 @@ The scripts for model simulation of the hierarchical attractor network are imple
 ## Notes
 
 - The folder structure may evolve as additional scripts and analysis modules are included.  
-- Dependencies: Python 3.11, Jupyter Notebook, NumPy, Matplotlib, BrainPy (and other standard scientific Python packages); MATLAB
+- Dependencies: Python 3.11, Jupyter Notebook, NumPy, Matplotlib, BrainPy (and other standard scientific Python packages); MATLAB 2022a
 
