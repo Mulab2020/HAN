@@ -8,7 +8,7 @@ The code provided here focuses on the **data preprocessing, figure plotting, and
 The scripts for model simulation of the hierarchical attractor network are implemented in Python (using Jupyter notebooks) and are organized to reproduce specific analyses and visualizations of neural activity trajectories. All other scripts are in MATLAB.
 
 ## Contents
-- **`Behaviora_model`**  
+- **`Behavioral_model`**  
   Code for recapitulating the behavioral model (reactive agent and serial-dependent agent) in the paper.
   
 - **`Ephys_data_preprocess`**  
