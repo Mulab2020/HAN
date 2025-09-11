@@ -4,11 +4,22 @@ This repository contains code related to the paper:
 
 > **A Thalamus–Brainstem Attractor Network Drives History-Biased Decisions**
 
-The code provided here focuses on the **data preprocess, figure plotting, and model simulation part** of the study.
-The scripts for model simulation of the hierarchical attractor network are implemented in Python (Jupyter notebooks) and are organized for reproducing specific analyses and visualizations of neural activity trajectories. All other scripts are in MATLAB.
+The code provided here focuses on the **data preprocessing, figure plotting, and model simulation part** of the study.
+The scripts for model simulation of the hierarchical attractor network are implemented in Python (using Jupyter notebooks) and are organized to reproduce specific analyses and visualizations of neural activity trajectories. All other scripts are in MATLAB.
 
 ## Contents
-
+- **`Behaviora_model`**
+  Code for recapitulating the behavioral model (reactive agent and serial-dependent agent) in the paper.
+  
+- **`Ephys_data_preprocess`**
+  Ephys signal filtering and bout extraction codes.
+  
+- **`Imaging_data_preprocess`**
+  Preprocessing code for whole-brain neuron calcium light-sheet microscopy.
+  
+- **`Plot_code`**
+  Code for drawing the figures in the manuscript.
+  
 - **`trajectory_plot.ipynb`**  
   Code for plotting average neural activity trajectories across different conditions.
 
@@ -20,7 +31,6 @@ The scripts for model simulation of the hierarchical attractor network are imple
 
 ## Notes
 
-- These scripts represent the **model simulation component** of the paper.  
 - The folder structure may evolve as additional scripts and analysis modules are included.  
-- Dependencies: Python 3.11, Jupyter Notebook, NumPy, Matplotlib, BrainPy (and other standard scientific Python packages).
+- Dependencies: Python 3.11, Jupyter Notebook, NumPy, Matplotlib, BrainPy (and other standard scientific Python packages); MATLAB
 
