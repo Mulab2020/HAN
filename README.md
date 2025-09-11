@@ -15,7 +15,7 @@ The scripts for model simulation of the hierarchical attractor network are imple
   Ephys signal filtering and bout extraction codes.
   
 - **`Imaging_data_preprocess`**  
-  Preprocessing code for whole-brain neuron calcium light-sheet microscopy.
+  Preprocessing code for whole-brain calcium imaging.
   
 - **`Plot_code`**  
   Code for drawing the figures in the manuscript.
