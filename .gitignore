@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# archives
+*.zip
+
+# optional: keep results but ignore macOS junk inside
+results/.DS_Store
+src/.DS_Store

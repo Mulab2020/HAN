@@ -1,0 +1,17 @@
+name: motor_network
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - tqdm
+  - jupyter
+  - pip:
+      - brainpy==2.7.6
+      - jax==0.7.1
+      - jaxlib==0.7.1

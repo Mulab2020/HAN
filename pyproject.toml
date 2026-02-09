@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "motor-network"
+version = "0.1.0"
+description = "Motor network simulation and analysis"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "brainpy==2.7.6",
+    "jax==0.7.1",
+    "jaxlib==0.7.1",
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "tqdm>=4.66"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["network", "motor", "tools"]
