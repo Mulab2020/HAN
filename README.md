@@ -5,6 +5,7 @@ This repository contains code related to the paper:
 A Thalamus–Brainstem Attractor Network Drives History-Biased Decisions
 
 The code provided here focuses on the model simulation part of the study. The scripts for model simulation of the hierarchical attractor network are implemented in Python (using Jupyter notebooks) and are organized to reproduce specific analyses and visualizations of neural activity trajectories. 
+
 ---
 
 ## Quick start (recommended for users)
@@ -15,25 +16,32 @@ You may either use an existing environment or create a clean conda environment.
 ---
 
 ### Option A — Use an existing Python 3.10/3.11 environment
+#### 1. Install the package
 
 From the repository root:
 pip install -r requirements.txt
 pip install -e .
 
+#### 2. Launch Jupyter
+
+jupyter notebook
+
+Open the `notebooks/` folder and run the notebooks in order.
+
 ---
 ### Option B — Create a clean conda environment (recommended)
-### 1. Create environment
+#### 1. Create environment
 
 conda env create -f environment.yml
 conda activate motor_network
 
-### 2. Install the package
+#### 2. Install the package
 
 From the repository root:
 
 pip install -e .
 
-### 3. Launch Jupyter
+#### 3. Launch Jupyter
 
 jupyter notebook
 
