@@ -37,7 +37,7 @@ Open the `notebooks/` folder and run the notebooks in order.
 
 ```bash
 conda env create -f environment.yml
-conda activate HANN
+conda activate motor_network
 ```
 #### 2. Install the package
 
