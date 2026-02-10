@@ -10,17 +10,20 @@ The code provided here focuses on the model simulation part of the study. The sc
 
 ## Quick start (recommended for users)
 
-The code runs with Python 3.10 or 3.11.
+The code runs with Python 3.11.
 
 You may either use an existing environment or create a clean conda environment.
 ---
 
-### Option A — Use an existing Python 3.10/3.11 environment
+### Option A — Use an existing Python 3.11 environment
 #### 1. Install the package
 
 From the repository root:
+
+```bash
 pip install -r requirements.txt
 pip install -e .
+```
 
 #### 2. Launch Jupyter
 
@@ -32,18 +35,23 @@ Open the `notebooks/` folder and run the notebooks in order.
 ### Option B — Create a clean conda environment (recommended)
 #### 1. Create environment
 
+```bash
 conda env create -f environment.yml
-conda activate motor_network
-
+conda activate HANN
+```
 #### 2. Install the package
 
 From the repository root:
 
+```bash
 pip install -e .
+```
 
 #### 3. Launch Jupyter
 
+```bash
 jupyter notebook
+```
 
 Open the `notebooks/` folder and run the notebooks in order.
 
